@@ -1,5 +1,5 @@
 class Jugador
-  attr_reader :nombre, :inventario
+  attr_reader :nombre
 
   def initialize(nombre)
     @nombre = nombre
